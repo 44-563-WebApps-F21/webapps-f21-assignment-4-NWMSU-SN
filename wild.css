@@ -91,10 +91,22 @@ table {
 padding: 5px;
 margin: 5px;
 border: 1px solid gray;
-float:right;
 background-color: #1c97e4;
+display: block;
 color: white;
+text-align: center;
+text-decoration: none;
   }
   a:hover{
       background-color: rgb(112, 177, 20);
+  }
+
+  .link{
+    text-align: center;
+    width: 100%;
+  }
+  .link-ul{
+      display: flex;
+      padding: 0;
+      list-style-type: none;
   }
